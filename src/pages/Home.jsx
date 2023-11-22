@@ -2,10 +2,10 @@
 import profilePic from "../assets/profile-pic.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAppStore, faCss3, faDocker, faGitSquare, faGithub, faHtml5, faJs, faLinkedin, faLinux, faPython } from "@fortawesome/free-brands-svg-icons";
-import { faCertificate, faDatabase, faLanguage, faLightbulb, faRibbon, faServer } from "@fortawesome/free-solid-svg-icons";
+import { faCertificate, faDatabase, faLanguage, faLightbulb, faMailBulk, faRibbon, faServer } from "@fortawesome/free-solid-svg-icons";
 import AboutCard from "../components/AboutCard";
 import ExperienceCard from "../components/ExperienceCard";
-import ProjectCard from "../components/ProjectCard";
+// import ProjectCard from "../components/ProjectCard";
 
 
 function Home() {
@@ -110,35 +110,17 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="projects">
-        <p className="section__text__p1">Browse My Recent</p>
-        <h1 className="title">Projects</h1>
-        <div className="experience-details-container">
-          <div className="about-containers">
-            <ProjectCard github="" />
-            
-          </div>
-        </div>
-      </section>
       <section id="contact">
         <p className="section__text__p1">Get in Touch</p>
         <h1 className="title">Contact Me</h1>
         <div className="contact-info-upper-container">
           <div className="contact-info-container">
-            <img
-              src="./assets/email.png"
-              alt="Email icon"
-              className="icon contact-icon email-icon"
-            />
-            <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            <FontAwesomeIcon className="icon contact-icon email-icon" icon={faMailBulk} />
+            <p><a href="mailto:contact@hazemmeqdad.com">contact@hazemmeqdad.com</a></p>
           </div>
           <div className="contact-info-container">
-            <img
-              src="./assets/linkedin.png"
-              alt="LinkedIn icon"
-              className="icon contact-icon"
-            />
-            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            <FontAwesomeIcon className="icon contact-icon" icon={faLinkedin} />
+            <p><a href="https://www.linkedin.com/in/hazemmeqdad/">LinkedIn</a></p>
           </div>
         </div>
       </section>

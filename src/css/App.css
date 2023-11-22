@@ -2,10 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -343,18 +339,18 @@ section {
 
 article div h3 {
   width: 100px;
+  margin: 0;
 }
 
 article {
-  padding: 0 10% 0;
+  padding: 0 8% 0;
   display: grid;
   grid-template-columns: 1fr 2.5fr;
-  align-content: space-around;
+  align-content: center;
 }
 
 article .icon {
-  cursor: default;
-  /* display: inline-block; */
+  cursor: default;  
 }
 
 /* PROJECTS SECTION */
@@ -434,8 +430,8 @@ footer p {
   text-align: center;
 }
 
-
 @media screen and (max-width: 1400px) {
+  
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -446,6 +442,7 @@ footer p {
   #contact,
   #projects {
     height: fit-content;
+    margin-top: 100px;
   }
 }
 
@@ -498,7 +495,13 @@ footer p {
     margin-bottom: 0;
   }
   article {
-    font-size: 1rem;
+    font-size: 0.6rem;
+    width: 10px;
+  }
+  article .icon {
+    margin-right: 10px;
+    width: 3rem;
+
   }
   footer nav {
     height: fit-content;
@@ -508,6 +511,7 @@ footer p {
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .contact-info-container {
     margin: 0;
