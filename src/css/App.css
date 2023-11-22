@@ -497,6 +497,7 @@ footer p {
   article {
     font-size: 0.6rem;
     width: 10px;
+    padding: 0;
   }
   article .icon {
     margin-right: 10px;
@@ -510,7 +511,9 @@ footer p {
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+  }
+  .about-containers {
     flex-direction: column;
   }
   .contact-info-container {
