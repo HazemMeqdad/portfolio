@@ -1,0 +1,23 @@
+
+
+.error h1 {
+    text-align: center;
+    font-size: 500%;
+}
+
+.error h1 {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    
+}
+.error h1 span {
+        -webkit-text-stroke-color: yellow;
+    }
+.error button {
+    justify-content: center;
+}
+
+.error p {
+    text-align: center;
+}
