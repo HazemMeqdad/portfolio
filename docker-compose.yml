@@ -4,5 +4,5 @@ services:
   portfolio:
     build: .
     ports:
-      - 8080:80
+      - "172.17.0.1:5000:80"
     restart: always
