@@ -6,10 +6,14 @@ import { faCertificate, faDatabase, faLanguage, faLightbulb, faMailBulk, faRibbo
 import AboutCard from "../components/AboutCard";
 import ExperienceCard from "../components/ExperienceCard";
 // import ProjectCard from "../components/ProjectCard";
+import resume from '../assets/hazem-resume.pdf'
 
 
 function Home() {
-  
+    const downloadResume = () => {
+      window.open(resume)
+    }
+
     return (
       <>
       <nav id="hamburger-nav">
@@ -39,7 +43,7 @@ function Home() {
           <div className="btn-container">
             <button
               className="btn btn-color-2"
-              onClick="window.open('./http://158.220.104.116:5000/f/20230828_225535.jpgassets/resume-example.pdf')"
+              onClick={downloadResume()}
             >
               Download CV
             </button>
