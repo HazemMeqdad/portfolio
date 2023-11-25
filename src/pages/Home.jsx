@@ -6,13 +6,10 @@ import { faCertificate, faDatabase, faLanguage, faLightbulb, faMailBulk, faRibbo
 import AboutCard from "../components/AboutCard";
 import ExperienceCard from "../components/ExperienceCard";
 // import ProjectCard from "../components/ProjectCard";
-import resume from '../assets/hazem-resume.pdf'
+import '../assets/hazem-resume.pdf';
 
 
 function Home() {
-    const downloadResume = () => {
-      window.open(resume)
-    }
 
     return (
       <>
@@ -41,12 +38,11 @@ function Home() {
           <h1 className="title">Hazem Meqdad</h1>
           <p className="section__text__p2">Backend Developer & Application Developer</p>
           <div className="btn-container">
-            <button
-              className="btn btn-color-2"
-              onClick={downloadResume()}
-            >
-              Download CV
-            </button>
+            <a href="../assets/hazem-resume.pdf" download>
+              <button className="btn btn-color-2">
+                Download resume
+              </button>
+            </a>
             <button className="btn btn-color-1">
               Contact Info
             </button>
