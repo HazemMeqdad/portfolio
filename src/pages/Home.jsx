@@ -6,7 +6,7 @@ import { faCertificate, faDatabase, faLanguage, faLightbulb, faMailBulk, faRibbo
 import AboutCard from "../components/AboutCard";
 import ExperienceCard from "../components/ExperienceCard";
 // import ProjectCard from "../components/ProjectCard";
-import '../assets/hazem-resume.pdf';
+import resume from '../assets/hazem-resume.pdf';
 
 
 function Home() {
@@ -38,7 +38,7 @@ function Home() {
           <h1 className="title">Hazem Meqdad</h1>
           <p className="section__text__p2">Backend Developer & Application Developer</p>
           <div className="btn-container">
-            <a href="../assets/hazem-resume.pdf" download>
+            <a href={resume} download>
               <button className="btn btn-color-2">
                 Download resume
               </button>
