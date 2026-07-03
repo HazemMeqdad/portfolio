@@ -21,25 +21,28 @@ export function About() {
           </h2>
           <div className="mt-6 space-y-4 text-[15px] leading-7 text-[var(--color-muted)]">
             <p>
-              I&apos;m a full stack developer who enjoys owning the whole
-              lifecycle from API design and database modeling to polished web
-              dashboards, cross-platform mobile apps, and the cloud
-              infrastructure that runs them.
+              I&apos;m a full stack developer who likes owning the whole thing:
+              the API, the database, the web dashboard, the mobile app, and
+              the infrastructure it all runs on.
             </p>
             <p>
-              I work across <span className="text-[var(--color-fg)]">.NET</span>{" "}
-              and <span className="text-[var(--color-fg)]">Node.js</span>{" "}
-              backends, <span className="text-[var(--color-fg)]">React</span> /{" "}
-              <span className="text-[var(--color-fg)]">Next.js</span> on the web,
-              and <span className="text-[var(--color-fg)]">React Native</span> /{" "}
-              <span className="text-[var(--color-fg)]">Flutter</span>&nbsp;on mobile, and I&apos;m comfortable taking a project from idea to production, including
-              shipping to AWS/DigitalOcean with Docker, Kubernetes, and CI/CD.
+              Most of my backend work is in{" "}
+              <span className="text-[var(--color-fg)]">.NET</span> and{" "}
+              <span className="text-[var(--color-fg)]">Node.js</span>. On the
+              web I use <span className="text-[var(--color-fg)]">React</span>{" "}
+              and <span className="text-[var(--color-fg)]">Next.js</span>, on
+              mobile{" "}
+              <span className="text-[var(--color-fg)]">React Native</span> and{" "}
+              <span className="text-[var(--color-fg)]">Flutter</span>. I&apos;ve
+              taken projects from an idea all the way to production on
+              AWS and DigitalOcean, with Docker, Kubernetes, and CI/CD along
+              the way.
             </p>
             <p>
-              I work fluently with modern AI-assisted development tools like{" "}
+              Day to day I also use AI tools like{" "}
               <span className="text-[var(--color-fg)]">Claude Code</span> and{" "}
-              <span className="text-[var(--color-fg)]">Cursor</span> to ship
-              faster while keeping quality high.
+              <span className="text-[var(--color-fg)]">Cursor</span>. They help
+              me ship faster without letting quality slip.
             </p>
           </div>
         </Reveal>

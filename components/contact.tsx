@@ -18,11 +18,11 @@ export function Contact() {
             Contact
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            Let&apos;s build something great.
+            Let&apos;s work together.
           </h2>
           <p className="mx-auto mt-4 max-w-md text-[15px] leading-7 text-[var(--color-muted)]">
-            Have a project in mind or just want to say hi? My inbox is always
-            open, I&apos;ll get back to you as soon as I can.
+            Have a project in mind, or just want to say hi? Send me an email
+            and I&apos;ll get back to you as soon as I can.
           </p>
 
           <a

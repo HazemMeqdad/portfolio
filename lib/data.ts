@@ -9,7 +9,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/hazemmeqdad",
   resume: "/Hazem-Meqdad-Resume.pdf",
   summary:
-    "Full Stack Developer with 2+ years of experience building and shipping production applications across web and mobile. Skilled across the full stack .NET and Node.js backends, React/Next.js dashboards, and React Native and Flutter mobile apps published to Google Play and the App Store. Comfortable owning projects end to end, from API design to cloud deployment on AWS with Docker, Kubernetes, and CI/CD pipelines.",
+    "Full stack developer with 2+ years shipping production apps for web and mobile. I build backends in .NET and Node.js, dashboards in React and Next.js, and mobile apps in React Native and Flutter that are live on Google Play and the App Store. I like owning a project end to end, from designing the API to deploying it on AWS with Docker, Kubernetes, and CI/CD.",
 };
 
 export type Experience = {
@@ -27,14 +27,14 @@ export const experiences: Experience[] = [
     period: "January 2026 — Present",
     location: "Amman, Jordan",
     highlights: [
-      "Delivered 8+ production applications end-to-end across healthcare AI, media streaming, e-commerce, and delivery/logistics owning backend APIs, web dashboards, mobile apps, and cloud deployment.",
-      "Built a medical AI diagnostic platform from the ground up: a .NET + SQL Server backend, a React.js dashboard, and a Flutter mobile app published to Google Play and the App Store. Provisioned the production infrastructure on AWS (EKS + EC2) and validated scalability with a load test simulating 100,000 concurrent users.",
-      "Single-handedly designed and launched a live TV streaming platform a Next.js web app paired with a React Native (Expo) mobile app published to Google Play.",
-      "Delivered a multi-vendor delivery platform from A to Z, including two React Native (Expo) mobile apps published to Google Play and the App Store.",
-      "Built and shipped a mobile news-media content-creation app, distributed through Apple TestFlight for closed beta testing.",
-      "Built the React 19 frontend for a real-time, large-format flight-tracking display for a major airline.",
-      "Published a mobile e-commerce marketplace app to Google Play and the App Store.",
-      "Led the development team on an AI language-learning platform, breaking work into Jira tasks, assigning them, and tracking the team's progress through delivery.",
+      "Shipped 8+ production apps in healthcare AI, media streaming, e-commerce, and delivery/logistics. On each one I owned the backend API, the web dashboard, the mobile app, and the cloud deployment.",
+      "Built a medical AI diagnostic platform from scratch: a .NET + SQL Server backend, a React.js dashboard, and a Flutter app now on Google Play and the App Store. Set up the production infrastructure on AWS (EKS + EC2) and load-tested it with 100,000 simulated concurrent users.",
+      "Designed and launched a live TV streaming platform on my own: a Next.js web app plus a React Native (Expo) mobile app on Google Play.",
+      "Took a multi-vendor delivery platform from first commit to launch, including two React Native (Expo) apps on Google Play and the App Store.",
+      "Built a news-media content-creation app for mobile, distributed through Apple TestFlight for closed beta testing.",
+      "Built the React 19 frontend for a major airline's real-time, large-format flight-tracking display.",
+      "Put a mobile e-commerce marketplace app on Google Play and the App Store.",
+      "Led the dev team on an AI language-learning platform: broke the work into Jira tasks, assigned them, and tracked progress through delivery.",
     ],
   },
   {
@@ -43,10 +43,10 @@ export const experiences: Experience[] = [
     period: "February 2024 — January 2026",
     location: "Amman, Jordan",
     highlights: [
-      "Built and shipped 9 full-stack projects to production, spanning e-commerce platforms, admin dashboards, AI-powered tools, and marketing landing pages.",
-      "Developed backends in Python (FastAPI), Node.js (Nest.js, Express.js), and PHP (Laravel), exposing both REST and GraphQL APIs.",
-      "Collaborated within a large engineering team using Git/GitHub, code reviews, and Jira for task management.",
-      "Set up CI/CD pipelines with GitHub Actions and used pull-request workflows to maintain code quality before staging and production releases.",
+      "Shipped 9 full-stack projects to production: e-commerce platforms, admin dashboards, AI-powered tools, and marketing landing pages.",
+      "Wrote backends in Python (FastAPI), Node.js (Nest.js, Express.js), and PHP (Laravel), with both REST and GraphQL APIs.",
+      "Worked in a large engineering team, with Git/GitHub, code reviews, and Jira for task tracking.",
+      "Set up CI/CD with GitHub Actions and pull-request workflows to catch problems before staging and production releases.",
     ],
   },
 ];
@@ -131,7 +131,7 @@ export const projects: Project[] = [
   {
     name: "lavaplay.py",
     description:
-      "A Lavalink nodes manager for building feature-rich music bots for Discord. The library most starred on my GitHub.",
+      "A Lavalink node manager for building Discord music bots. My most-starred repo.",
     language: "Python",
     stars: 51,
     url: "https://github.com/HazemMeqdad/lavaplay.py",
@@ -140,7 +140,7 @@ export const projects: Project[] = [
   {
     name: "discord-cloner",
     description:
-      "A tool to clone Discord servers channels, roles, and structure into a fresh server in a few clicks.",
+      "Clones a Discord server's channels, roles, and structure into a fresh server in a few clicks.",
     language: "Python",
     stars: 15,
     url: "https://github.com/HazemMeqdad/discord-cloner",
@@ -158,7 +158,7 @@ export const projects: Project[] = [
   {
     name: "cdn",
     description:
-      "An images & videos hosting API with a simple panel to upload and manage files.",
+      "An image and video hosting API with a small panel for uploading and managing files.",
     language: "JavaScript",
     stars: 4,
     url: "https://github.com/HazemMeqdad/cdn",
@@ -167,7 +167,7 @@ export const projects: Project[] = [
   {
     name: "quran-api",
     description:
-      "A REST API serving Quran pages, surahs, and audio from multiple reciters.",
+      "A REST API that serves Quran pages, surahs, and audio from multiple reciters.",
     language: "Python",
     stars: 1,
     url: "https://github.com/HazemMeqdad/quran-api",
@@ -176,7 +176,7 @@ export const projects: Project[] = [
   {
     name: "TinyCord",
     description:
-      "An easy and flexible Discord wrapper for building Discord bots with minimal boilerplate.",
+      "A small, flexible Discord wrapper for building bots without much boilerplate.",
     language: "Python",
     stars: 1,
     url: "https://github.com/HazemMeqdad/TinyCord",
