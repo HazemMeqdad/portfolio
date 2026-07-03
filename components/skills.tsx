@@ -18,7 +18,7 @@ export function Skills() {
                 {group.items.map((item) => (
                   <span
                     key={item}
-                    className="rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-2.5 py-1 text-xs text-[var(--color-muted)]"
+                    className="rounded-md border border-[var(--color-border)] bg-[var(--color-bg)] px-2.5 py-1 text-xs text-[var(--color-muted-foreground)]"
                   >
                     {item}
                   </span>

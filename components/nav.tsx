@@ -34,10 +34,10 @@ export function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="group relative text-sm text-[var(--color-muted)] transition-colors hover:text-[var(--color-fg)]"
+                className="group relative text-sm text-[var(--color-muted-foreground)] transition-colors hover:text-[var(--color-fg)]"
               >
                 {link.label}
-                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-gradient-to-r from-[var(--color-accent-2)] to-[var(--color-accent)] transition-all duration-300 ease-out group-hover:w-full" />
+                <span className="absolute -bottom-1 left-0 h-0.5 w-0 rounded-full bg-gradient-to-r from-[var(--color-accent-2)] to-[var(--color-primary)] transition-all duration-300 ease-out group-hover:w-full" />
               </a>
             </li>
           ))}
@@ -47,7 +47,7 @@ export function Nav() {
           <a
             href={profile.resume}
             download
-            className="hidden rounded-full border border-[var(--color-border)] px-4 py-1.5 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent-2)] sm:inline-block"
+            className="hidden rounded-full border border-[var(--color-border)] px-4 py-1.5 text-sm font-medium text-[var(--color-fg)] transition-colors hover:border-[var(--color-primary)] hover:text-[var(--color-accent-2)] sm:inline-block"
           >
             Resume
           </a>
@@ -87,7 +87,7 @@ export function Nav() {
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="group flex items-center gap-2 py-3 text-sm text-[var(--color-muted)] transition-all duration-300 hover:translate-x-1.5 hover:text-[var(--color-fg)]"
+                  className="group flex items-center gap-2 py-3 text-sm text-[var(--color-muted-foreground)] transition-all duration-300 hover:translate-x-1.5 hover:text-[var(--color-fg)]"
                 >
                   <span className="h-px w-0 bg-[var(--color-accent-2)] transition-all duration-300 group-hover:w-4" />
                   {link.label}

@@ -13,8 +13,8 @@ export function Experience() {
           {experiences.map((exp, i) => (
             <Reveal key={exp.company} delay={i * 80}>
               <article className="relative pl-10 sm:pl-12">
-                <span className="absolute left-0 top-1.5 flex h-5 w-5 items-center justify-center rounded-full border border-[var(--color-accent)] bg-[var(--color-bg)] sm:left-0.5">
-                  <span className="h-2 w-2 rounded-full bg-[var(--color-accent)]" />
+                <span className="absolute left-0 top-1.5 flex h-5 w-5 items-center justify-center rounded-full border border-[var(--color-primary)] bg-[var(--color-bg)] sm:left-0.5">
+                  <span className="h-2 w-2 rounded-full bg-[var(--color-primary)]" />
                 </span>
 
                 <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
@@ -24,11 +24,11 @@ export function Experience() {
                       @ {exp.company}
                     </span>
                   </h3>
-                  <span className="font-mono text-xs text-[var(--color-muted)]">
+                  <span className="font-mono text-xs text-[var(--color-muted-foreground)]">
                     {exp.period}
                   </span>
                 </div>
-                <p className="mt-0.5 text-xs text-[var(--color-muted)]">
+                <p className="mt-0.5 text-xs text-[var(--color-muted-foreground)]">
                   {exp.location}
                 </p>
 
@@ -36,9 +36,9 @@ export function Experience() {
                   {exp.highlights.map((h, idx) => (
                     <li
                       key={idx}
-                      className="flex gap-3 text-sm leading-6 text-[var(--color-muted)]"
+                      className="flex gap-3 text-sm leading-6 text-[var(--color-muted-foreground)]"
                     >
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-accent)]" />
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-primary)]" />
                       <span>{h}</span>
                     </li>
                   ))}

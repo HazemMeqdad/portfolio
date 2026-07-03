@@ -19,7 +19,7 @@ export function About() {
           <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
             Building products end to end.
           </h2>
-          <div className="mt-6 space-y-4 text-[15px] leading-7 text-[var(--color-muted)]">
+          <div className="mt-6 space-y-4 text-[15px] leading-7 text-[var(--color-muted-foreground)]">
             <p>
               I&apos;m a full stack developer who likes owning the whole thing:
               the API, the database, the web dashboard, the mobile app, and
@@ -55,7 +55,7 @@ export function About() {
                 className="rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] p-5"
               >
                 <div className="text-3xl font-bold gradient-text">{s.value}</div>
-                <div className="mt-1 text-xs leading-5 text-[var(--color-muted)]">
+                <div className="mt-1 text-xs leading-5 text-[var(--color-muted-foreground)]">
                   {s.label}
                 </div>
               </div>

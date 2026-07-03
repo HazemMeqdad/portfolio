@@ -24,7 +24,7 @@ export function Projects() {
             href={profile.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="mb-12 inline-flex items-center gap-2 text-sm text-[var(--color-muted)] transition-colors hover:text-[var(--color-fg)]"
+            className="mb-12 inline-flex items-center gap-2 text-sm text-[var(--color-muted-foreground)] transition-colors hover:text-[var(--color-fg)]"
           >
             <GitHubIcon className="h-4 w-4" /> View all on GitHub
           </a>
@@ -44,10 +44,10 @@ export function Projects() {
                 <h3 className="font-mono text-base font-semibold text-[var(--color-fg)]">
                   {project.name}
                 </h3>
-                <ArrowUpRightIcon className="h-4 w-4 shrink-0 text-[var(--color-muted)] transition-colors group-hover:text-[var(--color-accent-2)]" />
+                <ArrowUpRightIcon className="h-4 w-4 shrink-0 text-[var(--color-muted-foreground)] transition-colors group-hover:text-[var(--color-accent-2)]" />
               </div>
 
-              <p className="mt-3 flex-1 text-sm leading-6 text-[var(--color-muted)]">
+              <p className="mt-3 flex-1 text-sm leading-6 text-[var(--color-muted-foreground)]">
                 {project.description}
               </p>
 
@@ -55,14 +55,14 @@ export function Projects() {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="rounded border border-[var(--color-border)] px-2 py-0.5 text-[11px] text-[var(--color-muted)]"
+                    className="rounded border border-[var(--color-border)] px-2 py-0.5 text-[11px] text-[var(--color-muted-foreground)]"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
 
-              <div className="mt-5 flex items-center gap-4 border-t border-[var(--color-border)] pt-4 text-xs text-[var(--color-muted)]">
+              <div className="mt-5 flex items-center gap-4 border-t border-[var(--color-border)] pt-4 text-xs text-[var(--color-muted-foreground)]">
                 <span className="inline-flex items-center gap-1.5">
                   <span
                     className="h-2.5 w-2.5 rounded-full"

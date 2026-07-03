@@ -20,19 +20,19 @@ export function Contact() {
           <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
             Let&apos;s work together.
           </h2>
-          <p className="mx-auto mt-4 max-w-md text-[15px] leading-7 text-[var(--color-muted)]">
+          <p className="mx-auto mt-4 max-w-md text-[15px] leading-7 text-[var(--color-muted-foreground)]">
             Have a project in mind, or just want to say hi? Send me an email
             and I&apos;ll get back to you as soon as I can.
           </p>
 
           <a
             href={`mailto:${profile.email}`}
-            className="mt-7 inline-flex items-center gap-2 rounded-full bg-[var(--color-accent)] px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.03] hover:bg-indigo-500"
+            className="mt-7 inline-flex items-center gap-2 rounded-full bg-[var(--color-primary)] px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.03] hover:bg-indigo-500"
           >
             <MailIcon className="h-4 w-4" /> {profile.email}
           </a>
 
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-[var(--color-muted)]">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-[var(--color-muted-foreground)]">
             <a
               href={`tel:${profile.phone}`}
               className="inline-flex items-center gap-2 transition-colors hover:text-[var(--color-fg)]"
@@ -67,7 +67,7 @@ export function Contact() {
 export function Footer() {
   return (
     <footer className="border-t border-[var(--color-border)] px-6 py-8">
-      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-3 text-xs text-[var(--color-muted)] sm:flex-row">
+      <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-3 text-xs text-[var(--color-muted-foreground)] sm:flex-row">
         <p>
           © {profile.name}. Built with Next.js & Tailwind CSS.
         </p>
